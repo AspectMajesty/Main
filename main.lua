@@ -49,7 +49,7 @@ local DM = MainTab:CreateButton({
    Callback = function()
        if game.PlaceId == 13950003759 then
        Krnl.LoadAsync("https://raw.githubusercontent.com/AspectMajesty/test/main/thing.lua")
-    Rayfield:Destroy()
+    Rayfield:Destroy(Window)
    end,
 })
 
@@ -58,6 +58,6 @@ local MSZ = MainTab:CreateButton({
    Callback = function()
         if game.PlaceId == 14082247421 then
         Krnl.LoadAsync("https://raw.githubusercontent.com/AspectMajesty/test/main/msz.lua")
-    Rayfield:Destroy()
+    Rayfield:Destroy(Window)
    end,
 })
